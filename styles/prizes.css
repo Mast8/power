@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f9f9f9;
+  font-family: Rubik, sans-serif;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#container {
+  background-color: #bbb;
+  border-radius: 5px;
+  color: #fff;
+  margin: 0 auto;
+  max-width: 85%;
+  padding: 20px;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+h1, h2 {
+  padding: 20px;
+}
+
+table {
+  padding-bottom: 25px;
+}
+
+.prize-table {
+  border-spacing: 0 10px;
+}
+
+th {
+  color: #333;
+  font-size: 20px;
+}
+
+.prize, .odds, .plus {
+  color: #333;
+}
+
+.pball, .pmball, .ppball {
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  font-weight: 600;
+  height: 25px;
+  width: 25px;
+}
+
+.plus {
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 25px;
+  font-weight: 600;
+  height: 25px;
+  line-height: 50px;
+  width: 25px;
+}
+
+.plus-filler {
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 25px;
+  font-weight: 600;
+  height: 25px;
+  line-height: 50px;
+  visibility: hidden;
+  width: 25px;
+}
+
+.pball-filler {
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 600;
+  height: 25px;
+  line-height: 50px;
+  visibility: hidden;
+  width: 25px;
+}
+
+.pmball {
+  background-color: #ffd700;
+}
+
+.ppball {
+  background-color: #f00;
+}
+
+.separator {
+  text-align: center;
+}
+
+.kudo {
+  color: #333;
+  font-size: small;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media all and (max-width:576px) {
+  .pball, .pmball, .ppball {
+    height: 15px;
+    width: 15px;
+  }
+  
+  .plus {
+    font-size: 15px;
+    height: 15px;
+    width: 15px;
+  }
+  
+  .plus-filler {
+    font-size: 15px;
+    height: 15px;
+    width: 15px;
+  }
+  
+  .pball-filler {
+    height: 15px;
+    width: 15px;
+  }
+}

@@ -20,6 +20,10 @@ body {
   padding: 20px;
 }
 
+.megamillions, .powerball {
+  padding: 20px;
+}
+
 h1 {
   color: #333;
   padding: 20px;
@@ -39,18 +43,19 @@ img {
   height: auto;
 }
 
-#genMega, #genPower {
-  color: #6719e6;
-  font-weight: 500;
-  padding-bottom: 4px;
-  width: 30%;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+.genBtn {
+  color: black;
+  
+  width: 25%;
+  padding: 10px;
+  border-radius: 20px;
+  
 }
 
-#genMega:hover, #genPower:hover {
+.genBtn:hover {
   cursor: pointer;
+  color: white;
+  background-color: #990f0f;
 }
 
 .ball, .mmball, .pbball {
@@ -63,6 +68,7 @@ img {
   height: 50px;
   line-height: 50px;
   width: 50px;
+  
 }
 
 /*change megaball to yellow while retaining shadowing and position from ruleset above*/
@@ -104,4 +110,5 @@ p {
   p {
     font-size: 12px;
   }
+
 }

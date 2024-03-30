@@ -1,4 +1,4 @@
-const genMega_div = document.getElementById("genMega");
+const genMega_btn = document.getElementById("btn-genMega");
 const mwball1_div = document.getElementById("mwball1");
 const mwball2_div = document.getElementById("mwball2");
 const mwball3_div = document.getElementById("mwball3");
@@ -6,7 +6,7 @@ const mwball4_div = document.getElementById("mwball4");
 const mwball5_div = document.getElementById("mwball5");
 const mball_div = document.getElementById("mball");
 
-const genPower_div = document.getElementById("genPower");
+const genPower_btn = document.getElementById("genPower");
 const pwball1_div = document.getElementById("pwball1");
 const pwball2_div = document.getElementById("pwball2");
 const pwball3_div = document.getElementById("pwball3");
@@ -64,12 +64,14 @@ function getMegaGold() {
   }
 
   function main() {
-    genMega_div.addEventListener("click", function () {
+    genMega_btn.addEventListener("click", generatePower);
+    
+    function generatePower() {
       getMegaWhite();
       getMegaGold();
-    });
-    
-    genPower_div.addEventListener("click", function() {
+    }   
+
+    genPower_btn.addEventListener("click", function() {
       getPwrWhite();
       getPwrGold();
     })
